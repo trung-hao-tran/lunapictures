@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.12 64.12">
+  <path d="M62.14,43.22c-12.81,12.81-32.42,13.96-43.81,2.57C6.94,34.41,8.09,14.79,20.9,1.98c.7-.7,1.41-1.36,2.15-1.98-4.92,1.53-9.55,4.23-13.44,8.13-12.81,12.81-12.81,33.58,0,46.38s33.58,12.81,46.38,0c3.89-3.89,6.6-8.52,8.13-13.44-.63.73-1.29,1.45-1.98,2.15Z" fill="#fff"/>
+  <g>
+    <rect x="25.26" y="6.79" width="6.07" height="1.26" fill="#fff"/>
+    <rect x="27.66" y="4.39" width="1.26" height="6.07" fill="#fff"/>
+  </g>
+  <g>
+    <rect x="49.88" y="37.85" width="6.07" height="1.26" fill="#fff"/>
+    <rect x="52.29" y="35.45" width="1.26" height="6.07" fill="#fff"/>
+  </g>
+  <g>
+    <rect x="23.37" y="40.89" width="6.07" height="1.26" fill="#fff"/>
+    <rect x="25.77" y="38.49" width="1.26" height="6.07" fill="#fff"/>
+  </g>
+  <g>
+    <rect x="44.09" y="15.94" width="6.07" height="1.26" fill="#fff"/>
+    <rect x="46.5" y="13.53" width="1.26" height="6.07" fill="#fff"/>
+  </g>
+</svg>

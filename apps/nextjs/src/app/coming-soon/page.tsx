@@ -24,21 +24,30 @@ const ComingSoon: FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black">
-        <h1 className="text-9xl text-white mb-4">
-          {displayedText}
-          <motion.span
-            className="inline-block"
-            animate={{ opacity: [1, 0] }}
-            transition={{
-              duration: 0.7,
-              repeat: Infinity,
-              repeatType: "reverse"
-            }}
-          >
-            |
-          </motion.span>
-        </h1>
+    <div className="min-h-screen flex items-center justify-center bg-black px-4">
+        <div 
+          className="text-white whitespace-nowrap text-center w-full"
+          style={{
+            fontSize: 'clamp(4rem, 6vw, 8rem)',
+            lineHeight: 1,
+          }}
+        >
+          <span className="invisible absolute">Coming Soon</span>
+          <h1 className="relative">
+            {displayedText}
+            <motion.span
+              className="inline-block"
+              animate={{ opacity: [1, 0] }}
+              transition={{
+                duration: 0.7,
+                repeat: Infinity,
+                repeatType: "reverse"
+              }}
+            >
+              |
+            </motion.span>
+          </h1>
+        </div>
     </div>
   );
 }

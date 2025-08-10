@@ -2,8 +2,11 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'turborepo-shadcn-tailwind-v4',
-  description: 'Turborepo-Shadcn-Tailwind CSS v4 Boilerplate',
+  title: 'Luna Pictures',
+  description: 'Luna Pictures',
+  icons: {
+    icon: '/images/logo.svg',
+  },
 };
 
 export default function RootLayout({
